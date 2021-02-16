@@ -1,0 +1,22 @@
+ALGORITHM Checkpoint Linear Data Struc
+VAR
+set1: ARRAY_OF INTEGER;
+set2: ARRAY_OF INTEGER;
+i,j,sum : INTEGER;
+sum:=0
+BEGIN
+read(set1);
+read(set2);
+
+for i from 0 to set1.length;
+for j from 0 to set2.length;
+IF (set1[i]=set2[j]) THEN
+    sum=set1[i];
+    i=i+1 ; 
+
+ELSE
+   j=j+1;
+END_IF
+
+    set_instructions
+END
